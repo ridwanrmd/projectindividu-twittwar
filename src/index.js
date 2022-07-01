@@ -9,9 +9,7 @@ app.get("/", (req, res) => {
 app.get("/description", (req, res) => {
   res.send({
     status: "success",
-    data: [
-      "<p>project ini tercipta untuk memenuhi syarat kelulusan ke tahap bootcamp atau project akhir</p>",
-    ],
+    data: ["sunday", "monday", "tuesday"],
   });
 });
 
